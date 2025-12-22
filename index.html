@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Curriculum Vitae</title>
+
+<style>
+/* ================= PAGE SETUP ================= */
+@page {
+    size: A4;
+    margin: 2cm;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, serif;
+    background: #ffffff;
+    color: #000000;
+    margin: 0;
+}
+
+/* ================= CONTAINER ================= */
+.cv {
+    max-width: 820px;
+    margin: auto;
+}
+
+/* ================= HEADER ================= */
+.header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.header .subtitle {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.header .contact {
+    font-size: 13px;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+/* ================= SECTION ================= */
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}
+
+/* ================= CONTENT ================= */
+p {
+    font-size: 14px;
+    line-height: 1.45;
+    margin: 0 0 6px 0;
+}
+
+ul {
+    margin: 6px 0 0 18px;
+    padding: 0;
+}
+
+li {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/* ================= TWO COLUMN ROW ================= */
+.entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.entry-left {
+    width: 75%;
+}
+
+.entry-right {
+    width: 23%;
+    text-align: right;
+    font-size: 13px;
+}
+
+/* ================= LINKS ================= */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* ================= PRINT CLEAN ================= */
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+<!-- ================= HEADER ================= -->
+<div class="header">
+    <h1>Your Full Name</h1>
+    <div class="subtitle">B.Sc. Physics | Aspiring Researcher</div>
+    <div class="contact">
+        Email: your@email.com | Phone: +91-XXXXXXXXXX <br>
+        LinkedIn: linkedin.com/in/yourname | GitHub: github.com/yourname
+    </div>
+</div>
+
+<!-- ================= PROFILE ================= -->
+<div class="section">
+    <div class="section-title">Profile</div>
+    <p>
+        Physics undergraduate with strong theoretical foundation and
+        practical experience in computational modeling and experimental
+        methods. Actively preparing for postgraduate studies and research
+        in quantum technologies and condensed matter physics.
+    </p>
+</div>
+
+<!-- ================= EDUCATION ================= -->
+<div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Bachelor of Science in Physics</strong><br>
+            Jadavpur University, India
+        </div>
+        <div class="entry-right">
+            2023 – Present
+        </div>
+    </div>
+
+    <p>
+        Key Coursework: Quantum Mechanics, Electromagnetic Theory,
+        Solid State Physics, Electronics, Mathematical Physics
+    </p>
+</div>
+
+<!-- ================= RESEARCH & PROJECTS ================= -->
+<div class="section">
+    <div class="section-title">Projects & Research Experience</div>
+
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Bluetooth-Controlled Surveyor Rover</strong>
+        </div>
+        <div class="entry-right">2024</div>
+    </div>
+    <ul>
+        <li>Designed and implemented a remotely operated robotic platform</li>
+        <li>Integrated electronics, sensors, and control logic</li>
+    </ul>
+
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Numerical Simulation of Simple Pendulum</strong>
+        </div>
+        <div class="entry-right">2024</div>
+    </div>
+    <ul>
+        <li>Implemented numerical solver in Fortran</li>
+        <li>Visualized dynamics using GNUPLOT</li>
+    </ul>
+</div>
+
+<!-- ================= SKILLS ================= -->
+<div class="section">
+    <div class="section-title">Technical Skills</div>
+    <ul>
+        <li><strong>Programming:</strong> C, C++, Fortran, Python</li>
+        <li><strong>Scientific Tools:</strong> GNUPLOT, MATLAB, COMSOL</li>
+        <li><strong>Domains:</strong> Computational Physics, Electronics</li>
+    </ul>
+</div>
+
+<!-- ================= INTERESTS ================= -->
+<div class="section">
+    <div class="section-title">Research Interests</div>
+    <ul>
+        <li>Quantum Computing (Hardware & Software)</li>
+        <li>Nanotechnology and Materials Science</li>
+        <li>Computational and Experimental Physics</li>
+    </ul>
+</div>
+
+<!-- ================= ACTIVITIES ================= -->
+<div class="section">
+    <div class="section-title">Academic & Professional Activities</div>
+    <ul>
+        <li>Founder – Innovation and Skill Development Research Center (ISDRC)</li>
+        <li>Online Educator in Physics and Programming</li>
+    </ul>
+</div>
+
+<!-- ================= DECLARATION ================= -->
+<div class="section">
+    <div class="section-title">Declaration</div>
+    <p>
+        I hereby declare that the information provided above is accurate
+        and complete to the best of my knowledge.
+    </p>
+</div>
+
+</div>
+
+</body>
+</html>
