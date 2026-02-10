@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Curriculum Vitae</title>
+<title>Arpan Purkait Curriculum Vitae</title>
 
 <style>
 /* ================= PAGE SETUP ================= */
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: "Times New Roman", Georgia, serif;
+    font-family: "Arial", Georgia, serif;
     background: #ffffff;
     color: #000000;
     margin: 0;
@@ -26,22 +26,41 @@ body {
 
 /* ================= HEADER ================= */
 .header {
-    text-align: center;
-    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    /*-- border-bottom: 1.5px solid #000; */
+    padding-bottom: 14px;
+    margin-bottom: 14px;
 }
 
-.header h1 {
-    font-size: 30px;
+.photo {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.photo img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-text h1 {
+    font-size: 28px;
     margin: 0;
     letter-spacing: 0.5px;
 }
 
-.header .subtitle {
+.header-text .subtitle {
     font-size: 15px;
     margin-top: 6px;
 }
 
-.header .contact {
+.header-text .contact {
     font-size: 13px;
     margin-top: 8px;
     line-height: 1.4;
@@ -53,7 +72,7 @@ body {
 }
 
 .section-title {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px solid #000;
@@ -61,7 +80,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* ================= CONTENT ================= */
+/* ================= TEXT ================= */
 p {
     font-size: 14px;
     line-height: 1.45;
@@ -78,7 +97,7 @@ li {
     margin-bottom: 4px;
 }
 
-/* ================= TWO COLUMN ROW ================= */
+/* ================= TWO COLUMN ENTRIES ================= */
 .entry {
     display: flex;
     justify-content: space-between;
@@ -101,7 +120,7 @@ a {
     text-decoration: none;
 }
 
-/* ================= PRINT CLEAN ================= */
+/* ================= PRINT ================= */
 @media print {
     body {
         -webkit-print-color-adjust: exact;
@@ -116,32 +135,49 @@ a {
 
 <!-- ================= HEADER ================= -->
 <div class="header">
-    <h1>Your Full Name</h1>
-    <div class="subtitle">B.Sc. Physics | Aspiring Researcher</div>
-    <div class="contact">
-        Email: your@email.com | Phone: +91-XXXXXXXXXX <br>
-        LinkedIn: linkedin.com/in/yourname | GitHub: github.com/yourname
+    <div class="photo">
+        <img src="arpan.png" alt="Photograph">
+    </div>
+    <div class="header-text">
+        <h1>ARPAN PURKAIT</h1>
+        <div class="subtitle">
+            Physics Undergraduate | Jadavpur University
+        </div>
+        <div class="contact">
+            Email: arpanpurkait121@gmail.com<br>
+            Phone: +91-7047137776<br>
+            LinkedIn: linkedin.com/in/arpanpurkait | GitHub: github.com/purkait-arpan
+        </div>
     </div>
 </div>
 
-<!-- ================= PROFILE ================= -->
-<div class="section">
-    <div class="section-title">Profile</div>
+    <!-- ================= RESEARCH PROFILE ================= 
+    <div class="section">
+    <div class="section-title">Research Profile</div>
     <p>
-        Physics undergraduate with strong theoretical foundation and
-        practical experience in computational modeling and experimental
-        methods. Actively preparing for postgraduate studies and research
-        in quantum technologies and condensed matter physics.
+        Undergraduate physics student with a strong foundation in theoretical
+        and experimental physics, and hands-on experience in computational
+        modeling, electronics, and data analysis. Actively preparing for
+        postgraduate studies and research-oriented careers in physics.
     </p>
+</div> -->
+<!-- ================= INTERESTS ================= -->
+<div class="section">
+    <div class="section-title">Interests</div>
+    <ul>
+        <li>Quantum Technologies and Quantum Computers Hardware</li>
+        <li>Condensed Matter Physics and Material Science</li>
+        <li>Computational Science and Robotics</li>
+    </ul>
 </div>
-
 <!-- ================= EDUCATION ================= -->
 <div class="section">
     <div class="section-title">Education</div>
 
     <div class="entry">
         <div class="entry-left">
-            <strong>Bachelor of Science in Physics</strong><br>
+            <strong>Bachelor of Science (B.Sc.) in Physics Major</strong><br>
+            Minor - Mathematics and Computer Science <br>
             Jadavpur University, India
         </div>
         <div class="entry-right">
@@ -150,73 +186,140 @@ a {
     </div>
 
     <p>
-        Key Coursework: Quantum Mechanics, Electromagnetic Theory,
-        Solid State Physics, Electronics, Mathematical Physics
+        <strong>CGPA:</strong> 8.0/10 (up to 4th semester)<br> 
     </p>
-</div>
-
-<!-- ================= RESEARCH & PROJECTS ================= -->
-<div class="section">
-    <div class="section-title">Projects & Research Experience</div>
 
     <div class="entry">
         <div class="entry-left">
-            <strong>Bluetooth-Controlled Surveyor Rover</strong>
+            <strong>Higher Secondary Education (12th Grade)</strong><br>
+            Science Subjects - Physics, Chemistry, Mathematics and Biology<br>
+            West Bengal Council of Higher Secondary Education, India
+
         </div>
-        <div class="entry-right">2024</div>
+        <div class="entry-right">
+            2021 – 2023
+        </div>
     </div>
-    <ul>
-        <li>Designed and implemented a remotely operated robotic platform</li>
-        <li>Integrated electronics, sensors, and control logic</li>
-    </ul>
+
+    <p>
+        <strong>Percentage:</strong> 92%<br> 
+    </p>
 
     <div class="entry">
         <div class="entry-left">
-            <strong>Numerical Simulation of Simple Pendulum</strong>
+            <strong>Secondary Education (10th Grade)</strong><br>
+            West Bengal Board of Secondary Education, India
         </div>
-        <div class="entry-right">2024</div>
+        <div class="entry-right">
+            2021
+        </div>
     </div>
-    <ul>
-        <li>Implemented numerical solver in Fortran</li>
-        <li>Visualized dynamics using GNUPLOT</li>
-    </ul>
+    <p>
+        <strong>Percentage:</strong> 92%<br> 
+    </p>
+
 </div>
 
 <!-- ================= SKILLS ================= -->
 <div class="section">
     <div class="section-title">Technical Skills</div>
     <ul>
-        <li><strong>Programming:</strong> C, C++, Fortran, Python</li>
-        <li><strong>Scientific Tools:</strong> GNUPLOT, MATLAB, COMSOL</li>
-        <li><strong>Domains:</strong> Computational Physics, Electronics</li>
+        <li><strong>Programming Languages:</strong> Fortran, C, C++, Python, html, css, javascript, mysql, latex</li>
+        <li><strong>Data Analysis & Visualization:</strong> Excel, Gnuplot, Python, PowerBI, Origin</li>
+        <li><strong>Operating Systems:</strong> Linux, Windows</li>
+        <li><strong>3D Modeling:</strong> OpenSCAD, Blender</li>
+        <li><strong>IoT Skills:</strong> Arduino, Raspberry Pi, Sensor Integration</li>
     </ul>
 </div>
 
-<!-- ================= INTERESTS ================= -->
+<!-- ================= Internships ================= -->
 <div class="section">
-    <div class="section-title">Research Interests</div>
+    <div class="section-title">Internships</div>
+    <!-- ================= VBU ================= -->
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Nuclear Spectroscopy Internship, Visva Bharati University</strong>
+        </div>
+        <div class="entry-right">2025</div>
+    </div>
     <ul>
-        <li>Quantum Computing (Hardware & Software)</li>
-        <li>Nanotechnology and Materials Science</li>
-        <li>Computational and Experimental Physics</li>
+        <p><strong>Training on:</strong> Nuclear Physics, Spectroscopy Techniques, Detector Technology, Gamma Ray Spectroscopy, HPGe Clover Detectors, Indian National Gamma Array (INGA)'s Data analysis.</p>
+        <p><strong>Project:</strong> "In-beam Nuclear Spectroscopy of 78-Selenium" under the supervision of Dr. Anagha Chakraborty.</p>
+    </ul>
+    <!-- ================= ISI KOLKATA ================= -->
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Data Science Internship, ISI Kolkata</strong>
+        </div>
+        <div class="entry-right">2024-2025</div>
+    </div>
+    <ul>
+        <p><strong>Training on:</strong> Python for Data
+Science (Numpy, Pandas, Matplotlib), Data Visualization (Power BI, Vega-Lite), Streamlit, Codeless
+tools for Machine Learning and Introduction to Deep Learning.</p>
+        <p><strong>Project:</strong> "Climatological Analysis and Forecasting using 11 Years of Gridded
+Meteorological Data of Gangetic West Bengal" under the guidance of Dr. Prasun Datta.</p>
+    </ul>
+
+    
+
+</div>
+
+<!-- ================= PROJECTS ================= -->
+<div class="section">
+    <div class="section-title">Projects & Experience</div>
+
+    <div class="entry">
+        <div class="entry-left">
+            <strong>IoT and Robotics</strong>
+        </div>
+        <div class="entry-right">2024-2026</div>
+    </div>
+    <ul>
+        <li>Member of a university robotics research group working on swarm rovers.</li>
+        <li>Designed and fabricated multiple Rovers.</li>
+        <li>Designed multiple microcontroller-based IoT devices for automation and environmental monitoring.</li>
+    </ul>
+
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Web Development</strong>
+        </div>
+        <div class="entry-right">2024-2025</div>
+    </div>
+    <ul>
+        <li>Designed and developed the official website of the Innovation and Skill Development Research Center <br> (ISDRC), Jadavpur University</li>
+        
     </ul>
 </div>
+
+<!-- ================= Certifications ================= 
+<div class="section">
+    <div class="section-title">Certifications</div>
+
+    <div class="entry">
+        <div class="entry-left">
+            <strong>Quantum Computing and Algorithms - IIT Kharagpur</strong>
+        </div>
+        <div class="entry-right">2026</div>
+    </div>   -->
 
 <!-- ================= ACTIVITIES ================= -->
 <div class="section">
-    <div class="section-title">Academic & Professional Activities</div>
+    <div class="section-title">Activities</div>
     <ul>
-        <li>Founder – Innovation and Skill Development Research Center (ISDRC)</li>
-        <li>Online Educator in Physics and Programming</li>
+        <li>Founder – Innovation and Skill Development Research Center (ISDRC), Jadavpur University</li>
+        <li>Organizing Committee Member – SKill Development Seminars of Department of Physics, Jadavpur University</li>
+        <li>Ex-Cadet – National Cadet Corps (NCC), Indian Air Force</li>
+        <li>Ex-Volunteer – National Service Scheme (NSS), Jadavpur University</li>
+        <li>Active participant in academic seminars and workshops</li>
     </ul>
 </div>
-
-<!-- ================= DECLARATION ================= -->
+<!-- ================= Language ================= -->
 <div class="section">
-    <div class="section-title">Declaration</div>
+    <div class="section-title">Languages</div>
     <p>
-        I hereby declare that the information provided above is accurate
-        and complete to the best of my knowledge.
+        English (Fluent), Hindi (Fluent), Bengali (Native)
     </p>
 </div>
 
